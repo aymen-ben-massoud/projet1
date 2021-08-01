@@ -9,7 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link type="text/css" href="style.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -43,7 +43,32 @@
                     id="username"
                   />
                 </div>
-              </form>
+                <div class="form-group last mb-3">
+                  <label for="password">password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="your password"
+                    id="password"
+                  />
+                  <div class="d-flex mb-5 align-items-center">
+                    <label class="control control-checkbox mb-0">
+                      <span class="caption">Remember me </span>
+                      <input type="checkbox" checked="checked" />
+                      <div class="control-indicator"></div>
+                    </label>
+                    <span class="ml-auto"
+                      ><a href="#" class="forgot-pass">forgot password</a>
+                    </span>
+                    <input
+                      type="submit"
+                      value="Log In"
+                      class="btn btn-block btn-primary"
+                    />
+                  </form>
+                  </div>
+                </div>
+            
             </div>
           </div>
         </div>
