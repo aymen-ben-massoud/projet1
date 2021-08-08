@@ -129,3 +129,58 @@ h3 {
 .topbar {
   width: 1080px;
 }
+#theone {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: #43425d;
+}
+.down {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 150%;
+  color: #43425d;
+}
+.classe {
+  background-color: white;
+  border-left: 10px solid #43425d;
+}
+.col-md-4 {
+  font-weight: 600;
+  color: white;
+  background-color: rgb(255, 1, 234);
+  font-size: x-large;
+  height: 100px;
+  padding: 25px;
+}
+.black {
+  background-color: #43425d;
+}
+.dropdown {
+  font-weight: 500;
+  background-color: #f2cd71;
+  font-size: large #43425d;
+  display: inline-block;
+  margin: 50px;
+  width: 300px;
+}
+.table1 {
+  margin: 50px;
+}
+.table2 {
+  background-color: #43425d;
+  color: white;
+}
+
+img {
+  float: left;
+  width: 50px;
+  margin-top: -7px;
+}
+.input-group {
+  width: 20px;
+}
+.icon {
+  margin: 0 10px 0 10px;
+}
